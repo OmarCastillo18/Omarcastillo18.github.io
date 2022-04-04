@@ -1,0 +1,41 @@
+
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.countdown{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    flex-wrap: wrap;
+    
+}
+.countdown div{
+    display: grid;
+    place-items: center;
+    padding: 5px;
+}
+
+.reloj{
+    display: grid;
+    place-items: center;
+    border: solid 3px goldenrod;
+    height: 100px;
+    width: 100px;
+    border-radius: 60%;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: white;
+}
+span{
+    display: block;
+    padding: 5px;
+    text-align: center;
+    color: goldenrod;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
